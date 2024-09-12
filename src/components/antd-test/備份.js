@@ -1883,7 +1883,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1901,7 +1901,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1917,7 +1917,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1933,7 +1933,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1949,7 +1949,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1965,7 +1965,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1981,7 +1981,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -1998,7 +1998,7 @@ const PageMain: React.FC = () => {
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
                                   onChange={() => validateOther(i, "SlotCommissionRate")}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2014,7 +2014,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2030,7 +2030,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2060,7 +2060,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2080,7 +2080,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2096,7 +2096,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2112,7 +2112,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2128,7 +2128,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2144,7 +2144,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2160,7 +2160,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2176,7 +2176,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2192,7 +2192,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2208,7 +2208,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2239,7 +2239,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2257,7 +2257,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2273,7 +2273,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2289,7 +2289,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2305,7 +2305,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2321,7 +2321,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2337,7 +2337,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2354,7 +2354,7 @@ const PageMain: React.FC = () => {
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
                                   onChange={() => validateOther(i, "SlotCommissionRate")}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2370,7 +2370,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2386,7 +2386,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2416,7 +2416,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2436,7 +2436,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2452,7 +2452,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2468,7 +2468,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2484,7 +2484,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2500,7 +2500,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2516,7 +2516,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2532,7 +2532,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2548,7 +2548,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2564,7 +2564,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2595,7 +2595,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2613,7 +2613,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2629,7 +2629,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2645,7 +2645,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2661,7 +2661,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2677,7 +2677,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2693,7 +2693,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2710,7 +2710,7 @@ const PageMain: React.FC = () => {
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
                                   onChange={() => validateOther(i, "SlotCommissionRate")}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2726,7 +2726,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2742,7 +2742,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2772,7 +2772,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2792,7 +2792,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2808,7 +2808,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2824,7 +2824,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2840,7 +2840,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2856,7 +2856,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2872,7 +2872,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2888,7 +2888,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2904,7 +2904,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2920,7 +2920,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2951,7 +2951,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2969,7 +2969,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -2985,7 +2985,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3001,7 +3001,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3017,7 +3017,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3033,7 +3033,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3049,7 +3049,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3066,7 +3066,7 @@ const PageMain: React.FC = () => {
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
                                   onChange={() => validateOther(i, "SlotCommissionRate")}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3082,7 +3082,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3098,7 +3098,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3128,7 +3128,7 @@ const PageMain: React.FC = () => {
                               >
                                 <Input
                                   placeholder={`${i18n.t('inputData')}`}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3148,7 +3148,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3164,7 +3164,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3180,7 +3180,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3196,7 +3196,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3212,7 +3212,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3228,7 +3228,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3244,7 +3244,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3260,7 +3260,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
@@ -3276,7 +3276,7 @@ const PageMain: React.FC = () => {
                                 <Input
                                   placeholder={`${i18n.t("inputData")}`}
                                   addonAfter={"%"}
-                                  disabled={!isEditDone || allStatusDisabled}
+                                  disabled={!isEditDone || allStatusDisabled || level2StatusDisabled || level3StatusDisabled || level4StatusDisabled || level5StatusDisabled}
                                 />
                               </Form.Item>
                             );
